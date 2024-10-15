@@ -4,3 +4,4 @@
 
 // comparar a string
 - operacion.equals("suma")
+
