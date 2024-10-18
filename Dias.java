@@ -6,32 +6,37 @@ public class Dias {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese un numero del 1 al 7: ");
-        int dia = scanner.nextInt();
+        int numero = scanner.nextInt();
 
-        switch (dia) {
+        switch (numero) {
             case 1:
-                System.out.println("Lunes");
+                System.out.println("Dia Habil");
                 break;
             case 2:
-                System.out.println("Martes");
+                System.out.println("Dia Habil");
                 break;
             case 3:
-                System.out.println("Miercoles");
+                System.out.println("Dia Habil");
                 break;
             case 4:
-                System.out.println("Jueves");
+                System.out.println("Dia Habil");
                 break;
             case 5:
-                System.out.println("Viernes");
+                System.out.println("Dia Habil");
                 break;
             case 6:
-                System.out.println("Sabado");
+                System.out.println("Dia no habil");
+                break;
+            case 7:
+                System.out.println("Dia no habil");
                 break;
             default:
-                System.out.println("Domingo");
+                System.out.println("Opcion no valida");
+                break;
         }
 
         scanner.close();
+
     }
 
 }
